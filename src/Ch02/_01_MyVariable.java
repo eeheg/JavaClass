@@ -1,6 +1,6 @@
 package Ch02;
 
-public class MyVariable {
+public class _01_MyVariable {
     public static void main(String[] args) {
         String name = "유태경";
         int hour = 15;
