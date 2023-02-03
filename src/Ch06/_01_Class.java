@@ -76,5 +76,24 @@ public class _01_Class {
         System.out.println("계좌: "+minSoo.getAccountNo());
         System.out.println("잔고: "+minSoo.getAccountBalance());
         System.out.println("=====================");
+
+        System.out.println("-----------------------------");
+
+        Book bible = new Book("성경");
+        Book javabook = new Book("자바의 정석", "남궁성","도우출판",30000);
+        bible.printBook();
+        System.out.println(bible);
+        System.out.println(javabook);
+
+        System.out.println("-----------------------------");
+
+        MobilePhone galaxy = new MobilePhone("Silver",256);
+        MobilePhone iphone = new MobilePhone("iphone14","White",128);
+        System.out.println(galaxy);
+        System.out.printf("내가 구입한 스마트폰은 %s색 %s이고 용량은 %dGB 입니다.\n",galaxy.getColor(), galaxy.getModel(), galaxy.getCapacity());
+        System.out.printf("내가 구입한 스마트폰은 %s색 %s이고 용량은 %dGB 입니다.\n",iphone.getColor(), iphone.getModel(), iphone.getCapacity());
+        System.out.println(iphone);
+
+
     }
 }
